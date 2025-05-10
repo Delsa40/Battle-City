@@ -6,6 +6,7 @@ import Block from './Block.jsx'
 import Statue from './Statue.jsx'
 import StrongBlock from './StrongBlock.jsx'
 import Enemy from './Enemy.jsx'
+import TreeBlock from './TreeBlock.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -19,5 +20,6 @@ createRoot(document.getElementById('root')).render(
     <Block position_top={200} position_left={100}/>
     <StrongBlock />
     <Enemy />
+    <TreeBlock />
   </StrictMode>,
 )
